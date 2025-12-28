@@ -138,12 +138,31 @@ body {
   gap: 24px;
 }
 
-.thoughts-gallery img {
+.thoughts-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.thought-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.thought-item img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
 }
+
+.thought-item figcaption {
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+}
+
 .reasons {
   padding: 100px 24px;
   background: #f3cf7a

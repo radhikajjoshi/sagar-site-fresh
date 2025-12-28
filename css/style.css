@@ -13,7 +13,7 @@ body {
 .intro {
   max-width: 720px;      /* controls line length */
   margin: 0 auto;
-  padding: 96px 24px;
+  padding: 80px 24px 120px;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .hero img {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   object-fit: cover;
   display: block;
 }
@@ -45,7 +45,7 @@ body {
 .gallery {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 80px 24px;
+  padding: 140px 24px 80px;
 
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -104,7 +104,7 @@ body {
 }
 
 .thoughts {
-  padding: 100px 24px;
+  padding: 140px 24px;
 }
 
 .thoughts .container {
@@ -140,6 +140,7 @@ body {
 }
 .reasons {
   padding: 100px 24px;
+  background: #f3cf7a
 }
 
 .reasons .container {
@@ -168,8 +169,8 @@ body {
   padding: 24px;
 }
 .cutie {
-  padding: 100px 24px;
-  background: #fafafa;
+  padding: 80px 24px 140px;
+  background: #f6d98c;
 }
 
 .cutie .container {
@@ -192,7 +193,7 @@ body {
   text-align: center;
 }
 .quiz {
-  padding: 100px 24px;
+  padding: 120px 24px;
 }
 
 .quiz .container {
@@ -238,7 +239,7 @@ body {
   color: #444;
 }
 .contact {
-  padding: 100px 24px 60px;
+  padding: 140px 24px 80px;
   background: #111;
   color: #eee;
 }
@@ -265,4 +266,48 @@ body {
 .contact-note {
   font-size: 14px;
   color: #888;
+}
+
+.divider {
+  padding: 32px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.divider p {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  white-space: nowrap;
+  animation: scrollText 18s linear infinite;
+}
+
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Base background */
+body {
+  background: #f4d88d;
+}
+
+/* Emotional / feature sections */
+.gallery,
+.thoughts {
+  background: #f6dea3;
+}
+
+/* Personal / story sections */
+.cutie,
+.reasons {
+  background: #f3cf7a;
+}
+
+/* Contact / footer */
+.contact {
+  background: #77b7b2;
 }

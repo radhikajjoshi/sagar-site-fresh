@@ -167,3 +167,27 @@ body {
   color: #444;
   padding: 24px;
 }
+.cutie {
+  padding: 100px 24px;
+  background: #fafafa;
+}
+
+.cutie .container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cutie h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.cutie p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 24px;
+  text-align: center;
+}

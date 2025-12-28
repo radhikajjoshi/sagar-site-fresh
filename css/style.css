@@ -138,3 +138,32 @@ body {
   object-fit: cover;
   display: block;
 }
+.reasons {
+  padding: 100px 24px;
+}
+
+.reasons .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reasons h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.reason {
+  font-size: 17px;
+  line-height: 1.6;
+  text-align: center;
+  color: #444;
+  padding: 24px;
+}

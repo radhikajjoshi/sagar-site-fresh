@@ -81,3 +81,24 @@ body {
     object-position: center;
   }
 }
+
+.about {
+  padding: 100px 24px;
+}
+
+.about .container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  margin-bottom: 28px;
+}
+
+.about p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+}

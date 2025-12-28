@@ -102,3 +102,39 @@ body {
   line-height: 1.8;
   color: #444;
 }
+
+.thoughts {
+  padding: 100px 24px;
+}
+
+.thoughts .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.thoughts h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  margin-bottom: 16px;
+}
+
+.thoughts-text {
+  max-width: 600px;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 48px;
+}
+
+.thoughts-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.thoughts-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}

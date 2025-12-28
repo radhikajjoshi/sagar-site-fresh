@@ -58,3 +58,26 @@ body {
   object-fit: cover;
   display: block;
 }
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .intro {
+    padding: 72px 20px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .hero img {
+    height: 45vh;
+    object-position: center;
+  }
+}

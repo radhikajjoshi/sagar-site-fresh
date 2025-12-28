@@ -237,3 +237,32 @@ body {
   margin-top: 16px;
   color: #444;
 }
+.contact {
+  padding: 100px 24px 60px;
+  background: #111;
+  color: #eee;
+}
+
+.contact .container {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 32px;
+  color: #ccc;
+}
+
+.contact-note {
+  font-size: 14px;
+  color: #888;
+}
